@@ -58,17 +58,13 @@ Firebase를 React Native 프로젝트와 연동하고 SHA-1 키를 포함하는 
 1. 터미널 또는 커맨드 프롬프트를 열고 Android 앱 프로젝트 디렉토리로 이동합니다 (`<프로젝트_루트>/android`).
 2. 다음 명령어를 실행하여 SHA-1 키를 생성합니다:
 
-   ```bash
+   ```
    ./gradlew signingReport
    ```
 
-   ❯ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
-
-````
-
 Windows에서는 `gradlew signingReport`를 사용합니다.
 
-3. 출력된 정보 중 `debug` 키스토어에 대한 `SHA1` 값을 찾습니다.
+### 3. 출력된 정보 중 `debug` 키스토어에 대한 `SHA1` 값을 찾습니다.
 
 ### 3. Android 앱을 Firebase 프로젝트에 추가
 
@@ -90,6 +86,8 @@ Windows에서는 `gradlew signingReport`를 사용합니다.
    ```gradle
    classpath 'com.google.gms:google-services:4.3.10'  // Google Services plugin
    ```
+
+````
 
 2. 프로젝트의 `android/app/build.gradle` 파일을 열고, 파일의 맨 아래에 다음을 추가하여 Google 서비스 플러그인을 적용합니다:
 
@@ -119,13 +117,15 @@ Windows에서는 `gradlew signingReport`를 사용합니다.
 
 ```
 
+```
+
 ### ESLint 및 Prettier 설정 추가
 
 ```
 
 리액트 네이티브 프로젝트에 ESLint와 Prettier를 설정하는 과정을 다시 설명해드리겠습니다. 이번에는 yarn을 사용한 설치 과정과 함께, 앞서 언급한 ESLint 규칙을 적용하는 방법을 포함하겠습니다.
 
-```
+````
 
 ### 1단계: 필요한 패키지 설치
 
@@ -349,4 +349,7 @@ Firebase SDK를 리액트 네이티브 프로젝트의 iOS와 Android 앱에 각
 ```
 
 ```
-````
+
+```
+
+```
