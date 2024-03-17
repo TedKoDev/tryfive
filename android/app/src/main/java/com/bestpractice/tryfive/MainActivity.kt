@@ -1,4 +1,4 @@
-package com.tryfive
+package com.bestpractice.tryfive
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

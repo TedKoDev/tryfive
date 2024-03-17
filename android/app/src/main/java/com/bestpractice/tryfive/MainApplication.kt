@@ -1,4 +1,4 @@
-package com.tryfive
+package com.bestpractice.tryfive
 
 import android.app.Application
 import com.facebook.react.PackageList

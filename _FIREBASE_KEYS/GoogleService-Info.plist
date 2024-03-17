@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBmIPqxKRFMLKJhtjbzKLUfxoliIXNu6PU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>458834445901</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bestpractice.tryfive</string>
+	<key>PROJECT_ID</key>
+	<string>tryfive-fc7aa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tryfive-fc7aa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:458834445901:ios:cd9b01dd93d36c6bda3e04</string>
+</dict>
+</plist>
